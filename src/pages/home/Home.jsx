@@ -1,7 +1,9 @@
+import { Category } from "../../components/category/Category";
+
 const Home = () => {
   return (
     <div className="container">
-      <h1>namaste</h1>
+      <Category />
     </div>
   );
 };
