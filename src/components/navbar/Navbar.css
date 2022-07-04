@@ -1,0 +1,107 @@
+.navbar,
+.brand-name,
+.nav-menu,
+.nav-text,
+.nav-text a,
+.navbar-toggle {
+  display: flex;
+}
+
+.navbar,
+.brand-name,
+.nav-text,
+.navbar-toggle,
+.nav-text a {
+  align-items: center;
+}
+
+.navbar,
+.nav-text,
+.navbar-toggle {
+  justify-content: flex-start;
+}
+
+.brand-name,
+.nav-menu {
+  justify-content: center;
+}
+
+.navbar-toggle,
+.nav-menu-items {
+  width: 100%;
+}
+
+.brand-name .brand-text,
+.nav-text {
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  height: 80px;
+}
+
+.brand-name {
+  gap: 0;
+  cursor: pointer;
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.brand-name .brand-text {
+  font-size: 1.5rem;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.menu-bars,
+.brand-logo {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu {
+  background-color: var(--primary-color);
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: var(--black-color);
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.navbar-toggle {
+  background-color: var(--primary-color);
+  height: 80px;
+}
+
+span {
+  margin-left: 16px;
+}
